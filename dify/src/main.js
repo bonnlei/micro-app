@@ -16,7 +16,7 @@ export default async ({ req, res, log, error }) => {
       response_mode: "blocking",
       user: "appwrite"
     }
-  }).json();
+  });
 
 
 
